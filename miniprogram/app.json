@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "subPackages": [
+    {
+      "root": "packageOne",
+      "pages": [
+        "pages/nickname/index"
+      ]
+    }
+  ],
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

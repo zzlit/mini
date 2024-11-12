@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <van-cell-group inset>
+    <van-cell class="mb-12" title="羽毛球轮转" link-type="navigateTo" is-link url="/packageOne/pages/nickname/index" />
+    <!-- <van-cell title="标题" value="内容" label="描述信息" /> -->
+  </van-cell-group>
+</scroll-view>
